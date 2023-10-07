@@ -1,0 +1,30 @@
+/* navbar */
+
+#nav{
+    align-items: center;
+    justify-content: right;
+    background-color: red;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    margin-top: 0px;
+}
+
+#logo{
+    position: absolute;
+    left: 75px;
+}
+
+.navbtn{
+    background-color: green;
+    border: 5px;
+    border-radius: 30%;
+    padding: 7px, 15px;
+    color: black;
+    align-items: right;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+    align-content: right;
+    text-decoration: none;
+}
