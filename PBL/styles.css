@@ -59,7 +59,7 @@ body{
     margin: 0px;
     padding-top: 0px;
     background-color: #EFEFEF;
-    height: 660px;
+    height: 820px;
     width: 100%;
 }
 
@@ -71,21 +71,39 @@ body{
 
 .centeredtext1{
     position: relative;
-    top: 115px;
+    top: 30px;
     font-family: sans-serif;
     font-size: 45px;
 }
 
 .centeredtext2{
     position: relative;
-    top: 85px;
+    top: 8px;
     font-family: sans-serif;
     font-size: 45px;
 }
 
 .centerbelowtext{
     position: relative;
-    top: 80px;
+    top: 20px;
     font-family: monospace;
     font-size: 25px;
+}
+
+/*          Table           */
+
+.overviewtable{
+    position: relative;
+    top: 30px;
+    height: 420px;
+    width: 66px;
+}
+
+.tabimg{
+    height: 210px;
+    width: 330px;
+}
+
+.tabimg{
+    transition: transform 0.3s ease;
 }
