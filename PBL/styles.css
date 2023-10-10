@@ -1,35 +1,64 @@
-/* navbar */
+/*          navbar           */
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
 
 #nav{
-    align-items: center;
     justify-content: right;
-    background-color: #0E21A0;
+    background-color: #0802A3;
     display: flex;
     padding: 25px;
-    text-align: center;
     position: relative;
-    margin-top: 0px;
 }
 
 #logo{
     position: absolute;
-    left: 75px;
+    left: 100px;
+    align-content: left;
 }
 
-.navbtn{
-    background-color: #FF4B91;
-    border: 5px;
-    border-radius: 30%;
+.navopt{
+    background-color: #0E21A0;
+    border: 10px;
+    border-radius: 25%;
     padding: 7px, 15px;
-    color: black;
+    color: White;
     align-items: right;
     padding: 10px 10px 10px 10px;
     margin-left: 30px;
-    align-content: right;
     text-decoration: none;
 }
-nav>a:hover{
-    border-bottom: 3px;
-    text-decoration: underline;
-    color: white;
+
+.navopt::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #f1f1f1;
+    transition: width .3s;
+  }
+
+.navopt:hover::after {
+    width: 100%;
+  }
+
+
+
+/*          What We Do          */
+
+.div1{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.milestone{ 
+    text-align: center;
+    background-color: #362FD9;
+    margin-top: 0px;
 }
