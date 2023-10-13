@@ -189,15 +189,15 @@ form>button{
 
 .footer{
     background-color: #EFEFEF;
-    position: absolute;
-    top: 1680px;
-    height: 350px;
+    position: relative;
+    top: 1580px;
+    height: 200px;
     width: 100%;    
 }
 
 #rights{
     position: absolute;
-    top: 1900px;
+    top: 1950px;
     left: 525px;
     font-size: 25px;
 }
@@ -232,4 +232,47 @@ form>button{
     width: 35px;
     top: 70px;
     left: 1140px;
+}
+
+.opt1{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 125px;
+    left: 430px;
+}
+
+.opt2{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 88px;
+    left: 351px;
+}
+
+
+.opt3{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 51px;
+    left: 292px;
+}
+
+
+.opt4{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 210px;
+}
+
+
+.opt5{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: -22px;
+    left: 136px;
 }
