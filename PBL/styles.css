@@ -12,8 +12,8 @@ body{
 #nav{
     justify-content: right;
     background-color: #0802A3;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
     display: flex;
     padding: 30px;
     position: relative;
@@ -52,7 +52,6 @@ body{
 
 /*          What We Do          */
 
-
 .div1{
     position: absolute;
     padding-top: 180px;
@@ -67,6 +66,19 @@ body{
 .milestone{ 
     text-align: center;
     margin-top: 0px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 3;
+    }
 }
 
 .centeredtext1{
@@ -85,7 +97,9 @@ body{
 
 .centerbelowtext{
     position: relative;
-    top: 90px;
+    top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: monospace;
     font-size: 25px;
 }
@@ -251,7 +265,7 @@ form>button{
 
 #copyrights{
     position: absolute;
-    top: 1800px;
+    top: 1850px;
     left: 525px;
     font-size: 25px;
 }
