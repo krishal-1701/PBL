@@ -8,15 +8,16 @@
 
     <style>
         body {
-            background-image: url("./indexlogoimages/IMG_20231013_170524.jpg");
+            background-image: url("./indexlogoimages/AI.jpg");
+            background-blend-mode: soft-light;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             font-family: 'Roboto Serif', serif;
-            margin: 0px;
+            margin: 0px; 
             padding: 0px;
         }
-        
+        /*          Navbar          */
         #nav{
             justify-content: right;
             background-color: rgba(30, 40, 78, 0.5);
@@ -24,11 +25,13 @@
             padding: 25px;
             position: relative;
             margin: 0px;
+            border-bottom-left-radius: 200px;
+            border-bottom-right-radius: 200px;
         }
 
         #logo{
             position: absolute;
-            left: 100px;
+            left: 200px;
             align-content: left;
         }
 
@@ -57,9 +60,16 @@
         .navopt:hover::after {
             width: 100%;
         }
+        
+        
+        /*        Our Ambition         */
 
-
-       
+        .ourambition{
+            color: white;
+            font-family: Georgia, serif;
+            font-size: 50px;
+            margin-left: 40%;
+        }
         
     </style>
 
@@ -68,7 +78,7 @@
     <!-- Navigation Bar -->
     <header class="container">
         <nav id="nav">
-            <img id="logo" src="./indexlogoimages/logo.png" width="50" height="50" alt="Website Logo">
+            <img id="logo" src="" width="50" height="50" alt="Website Logo">
             <a href="./index.html" class="navopt">Home</a>
             <a href="./our service/service.html" class="navopt">Service</a>
             <a href="#contact" class="navopt">Contact</a>
@@ -78,8 +88,8 @@
     </header>
 
     <div>
-        <h1>Our Ambition</h1>
-        <p>Our aim is to make the surveillance</p>
+        <h1 class="ourambition">Our Ambition</h1>
+        <p>Our aim is to make the surveillance system to the next level</p>
         <img src="" alt="pic">
     </div>
 
