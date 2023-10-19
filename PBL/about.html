@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./indexlogoimages/favicon.png">
+    <title>About</title>
+
+    <style>
+        body {
+            background-image: url("./aboutimages/bluetechbackground.jpg");
+            
+            background-blend-mode: soft-light;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Roboto Serif', serif;
+            margin: 0px; 
+            padding: 0px;
+        }
+        /*          Navbar          */
+        #nav{
+            justify-content: right;
+            background-color: rgba(40, 50, 80, 0.5);
+            display: flex;
+            padding: 25px;
+            position: relative;
+            margin: 0px;
+            border-bottom-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+        }
+
+        #logo{
+            position: absolute;
+            left: 200px;
+            align-content: left;
+        }
+
+        .navopt{
+            border: 10px;
+            border-radius: 25%;
+            padding: 7px, 15px;
+            color: White;
+            align-items: right;
+            padding: 10px 10px 10px 10px;
+            margin-left: 35px;
+            margin-right: 18px;
+            text-decoration: none;
+            font-family: Georgia, serif;
+        }
+
+        .navopt::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 0;
+            background-color: #f1f1f1;
+            transition: width .3s;
+        }
+
+        .navopt:hover::after {
+            width: 100%;
+        }
+        
+        
+        /*        Our Ambition         */
+
+        .ourambition{
+            color: white;
+            font-family: Georgia, serif;
+            font-size: 50px;
+            margin-left: 40%;
+        }
+        
+        .text1{
+            color: white;
+            font-size: 35px;
+            margin-left:30%;
+        }
+
+        .text2{
+            color: white;
+            font-size: 35px;
+            margin-right:30%;
+        }
+
+        .text3{
+            color: white;
+            font-size: 35px;
+            margin-left:30%;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="container">
+        <nav id="nav">
+            <img id="logo" src="./Logoimages/surveillance.png" width="50" height="50" alt="Website Logo">
+            <a href="./index.html" class="navopt">Home</a>
+            <a href="./our service/service.html" class="navopt">Service</a>
+            <a href="#contact" class="navopt">Contact</a>
+            <a href="./about.html" class="navopt">About</a>
+            <a href="./register.html" class="navopt">Register</a>
+        </nav>
+    </header>
+
+    <div>
+        <h1 class="ourambition">Our Ambition</h1><br>
+        <p class="text1" align="center">Normally at public places we are<br> continuously being observed under CCTV <br>Surveillance system 
+            setup by<br> the organizers of the concerned authorities.<br><br>
+        </p>
+
+        <p class="text2" align="center">
+            Within those CCTV's our model <br>will be easily integrated for experiencing <br>high tech functionality in CCTV's Vision.<br><br>
+        </p>
+
+        <p class="text3" align="center">
+            CCTV will become capable for detecting <br>any anomalie under the visible area<br> and alert's nearest police station <br>
+            or concerned authorities for performing<br> necessary action against the crime<br>
+        </p>
+    </div>
+
+
+
+</body>
+</html>
