@@ -19,4 +19,4 @@ function animateTextAppearance() {
 animateTextAppearance();
 
 // Repeat the animation every 1 second (1000 milliseconds)
-setInterval(animateTextAppearance, 16500);
+setInterval(animateTextAppearance, 16550);

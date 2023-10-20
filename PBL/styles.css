@@ -26,6 +26,7 @@ body {
     position: absolute;
     left: 200px;
     align-content: left;
+    border-radius: 20%;
 }
 
 .navopt{
@@ -126,9 +127,9 @@ body {
 }
 
 #copyrights{
-    position: absolute;
-    top: 30px;
-    left: 525px;
+    position: relative;
+    top: 35px;
+    margin-left: 35%;
     font-size: 25px;
     color: white;
 }
