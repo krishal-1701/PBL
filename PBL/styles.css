@@ -1,7 +1,5 @@
 body {
     background-image: url("./homeimages/backgroundhome.jpeg");
-    
-    background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
