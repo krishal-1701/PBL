@@ -1,9 +1,14 @@
-// Splash Page
-window.addEventListener('load', function() {
-    setTimeout(function() {
-      document.getElementById('loading-page').style.opacity = '0';
-    }, 2000); // Adjust the delay in milliseconds (e.g., 3000ms = 3 seconds)
+// Add this in your main.js file or in a script tag in your HTML
+
+document.addEventListener('DOMContentLoaded', function () {
+  const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+  const navItems = document.querySelector('.nav-items');
+
+  mobileMenuIcon.addEventListener('click', function () {
+      navItems.classList.toggle('show');
   });
+});
+
 
 
 
@@ -28,5 +33,6 @@ function animateTextAppearance() {
 animateTextAppearance();
 
 // Repeat the animation every 1 second (1000 milliseconds)
-setInterval(animateTextAppearance, 16550);
+setInterval(animateTextAppearance, 1800000);
+
 
