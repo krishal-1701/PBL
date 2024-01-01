@@ -63,7 +63,7 @@ body {
 
 /* Mobile Menu Styling */
 .mobile-menu-icon {
-    display: none;
+    display: flex;
     flex-direction: column;
     cursor: pointer;
     margin-left: 60%;
@@ -108,7 +108,6 @@ body {
         display: flex;
         
     }
-
 }
 
 
@@ -210,4 +209,25 @@ body {
     color: white;
     padding-top: 2%;
     margin: auto 5% auto 5%;
+}
+
+
+@media (max-width: 500px){
+    .footer{
+        background-color: rgba(30, 40, 78, 0.5);
+        height: 110px;
+        width: 100%;
+        border-top-right-radius: 500px;
+        border-top-left-radius: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #copyrights{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 2%;
+        margin: auto 5% auto 5%;
+    }   
 }
