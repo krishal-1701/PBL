@@ -136,7 +136,7 @@ body {
     #logo{
         align-content: left;
         padding: 0px;
-        margin-right: 8%;
+        margin-right: 0%;
         border-radius: 20%;
     }   
     
@@ -263,11 +263,11 @@ body {
 }
 
 
-@media (max-width: 700)
+@media (max-width: 700px)
 {
     .footer{
         background-color: rgba(30, 40, 78, 0.5);
-        height: 150px;
+        height: 100px;
         width: 100%;
         border-top-right-radius: 500px;
         border-top-left-radius: 500px;
@@ -277,9 +277,9 @@ body {
 
     #copyrights{
         text-align: center;
-        font-size: 10px;
+        font-size: 18px;
         color: white;
-        padding-top: 2%;
+        padding-top: 8%;
         margin: auto 11% auto 11%;
     }
 }
